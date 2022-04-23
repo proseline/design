@@ -83,6 +83,7 @@ On creating a new project, a client generates:
 On joining a project, a client generates a random **log key pair** for signing entries to the client's project log
 
 Participants wrap each entry to each project log in an **envelope**.  Each envelope includes:
+
 - a signature with the secret project write key
 - a signature with the secret log write key
 - the entry, encrypted with the project read key
@@ -90,10 +91,12 @@ Participants wrap each entry to each project log in an **envelope**.  Each envel
 Each entry includes a monotonically increasing index, starting with zero.  Each entry after the first includes the cryptographic digest of the prior entry in the log.
 
 Each invitation stored by the proseline.com server application includes:
+
 - the project distribution key
 - the public project write key
 
 and optionally:
+
 - the secret project write key, encrypted with the customer's privacy key
 - the project read key, encrypted with the customer's privacy key
 - a title for the project, encrypted with the customer's privacy key
