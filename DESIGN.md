@@ -60,7 +60,7 @@ The proseline.com server application provides services to paying customers:
 
 The server stores keys for reading and writing to projects, encrypted with the customer's **privacy key**.
 
-The server stores the customer's privacy key, encrypted so that the customer can decrypt it using their **privacy secret**.  Participants never send privacy secrets to the server.
+The server stores the customer's privacy key, encrypted so that the customer can decrypt it using their **privacy phrase**.  Participants never send privacy phrases to the server.
 
 People connect their clients to their paid accounts by logging in via links e-mailed to them by the server.  The client signs login requests for using its client key.
 
