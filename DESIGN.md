@@ -96,13 +96,13 @@ Each invitation stored by the proseline.com server application includes:
 
 - the project write public key
 
-and optionally:
+- optionally:
 
-- the project write secret key, encrypted with the customer's privacy key
+  - the project write secret key, encrypted with the customer's privacy key
 
-- the project read key, encrypted with the customer's privacy key
+  - the project read key, encrypted with the customer's privacy key
 
-- a title for the project, encrypted with the customer's privacy key
+  - a title for the project, encrypted with the customer's privacy key
 
 ## Links
 
