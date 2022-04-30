@@ -26,14 +26,6 @@ Each project has one or more **clients**, of three types:
 
 3.  **Writers** can contribute work to the project, in addition to reading and distributing it. 
 
-<!--
-|             | Distribute | Read | Write |
-|-------------|------------|------|-------|
-| Distributor | Yes        |      |       |
-| Reader      | Yes        | Yes  |       |
-| Writer      | Yes        | Yes  | Yes   |
--->
-
 The proseline.com JavaScript application is a client that can distribute, read, and write.
 
 The proseline.com server application is a client that distributes customers' projects.
